@@ -2,7 +2,6 @@ const findMean = (num1, num2, num3) => {
     if (typeof num1 != 'number'){
         throw new Error('This is wrong!')
     }
-
     const avg = (num1+num2+num3)/3;
   //  const avg = math.mean(num1, num2, num3);
     if(avg >=90 && avg <=100 ){
