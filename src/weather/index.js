@@ -1,4 +1,4 @@
-const getWeatherFor = city => {
+const getWeatherFor = (city) => {
   return new Promise((resolve, reject) => {
     if (city.toLowerCase() === 'sydney') {
       resolve(25);

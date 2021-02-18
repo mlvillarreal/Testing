@@ -1,3 +1,10 @@
+class DomElement {
+  constructor() {
+    this.innerText = '';
+    this.value = '';
+  }
+}
+
 const loginEmail = new DomElement();
 const loginPassword = new DomElement();
 const loginButton = new DomElement();

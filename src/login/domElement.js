@@ -1,6 +1,6 @@
-class DomElement {
-  constructor() {
-    this.innerText = '';
-    this.value = '';
-  }
-}
+// class DomElement {
+//   constructor() {
+//     this.innerText = '';
+//     this.value = '';
+//   }
+// }
